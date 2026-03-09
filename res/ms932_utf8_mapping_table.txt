@@ -55,6 +55,19 @@
 # MS932 is a superset of Shift_JIS used on Microsoft Windows and includes
 # several vendor-specific extensions.
 #
+# UTF-8 BOM note:
+# Some UTF-8 text files may start with a Byte Order Mark (BOM):
+#
+#   ef bb bf
+#
+# The BOM does not represent a character and is therefore not included
+# in this table.
+#
+# In principle UTF-8 does not require a BOM and many systems avoid using it.
+# However, on Windows systems where MS932 and UTF-8 text files may coexist,
+# it is common for UTF-8 files to include a BOM to help distinguish them
+# from MS932-encoded text.
+#
 09      09        09      # US-ASCII (Control codes)
 0a      0a        0a      # US-ASCII (Control codes)
 0d      0d        0d      # US-ASCII (Control codes)
