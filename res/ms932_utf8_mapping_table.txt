@@ -810,19 +810,19 @@ df      efbe9f    df      # Half-width Katakana
 878d    e38dbe    878d    # Full-width Characters (NEC special characters)
 878e    e38dbd    878e    # Full-width Characters (NEC special characters)
 878f    e38dbc    878f    # Full-width Characters (NEC special characters)
-8790    e28992    81e0    # Full-width Characters (NEC special characters)
-8791    e289a1    81df    # Full-width Characters (NEC special characters)
-8792    e288ab    81e7    # Full-width Characters (NEC special characters)
+8790    e28992    81e0    # Full-width Characters (NEC special characters) / round-trip mismatch
+8791    e289a1    81df    # Full-width Characters (NEC special characters) / round-trip mismatch
+8792    e288ab    81e7    # Full-width Characters (NEC special characters) / round-trip mismatch
 8793    e288ae    8793    # Full-width Characters (NEC special characters)
 8794    e28891    8794    # Full-width Characters (NEC special characters)
-8795    e2889a    81e3    # Full-width Characters (NEC special characters)
-8796    e28aa5    81db    # Full-width Characters (NEC special characters)
-8797    e288a0    81da    # Full-width Characters (NEC special characters)
+8795    e2889a    81e3    # Full-width Characters (NEC special characters) / round-trip mismatch
+8796    e28aa5    81db    # Full-width Characters (NEC special characters) / round-trip mismatch
+8797    e288a0    81da    # Full-width Characters (NEC special characters) / round-trip mismatch
 8798    e2889f    8798    # Full-width Characters (NEC special characters)
 8799    e28abf    8799    # Full-width Characters (NEC special characters)
-879a    e288b5    81e6    # Full-width Characters (NEC special characters)
-879b    e288a9    81bf    # Full-width Characters (NEC special characters)
-879c    e288aa    81be    # Full-width Characters (NEC special characters)
+879a    e288b5    81e6    # Full-width Characters (NEC special characters) / round-trip mismatch
+879b    e288a9    81bf    # Full-width Characters (NEC special characters) / round-trip mismatch
+879c    e288aa    81be    # Full-width Characters (NEC special characters) / round-trip mismatch
 889f    e4ba9c    889f    # Full-width Characters
 88a0    e59496    88a0    # Full-width Characters
 88a1    e5a883    88a1    # Full-width Characters
@@ -7178,380 +7178,380 @@ eaa1    e98199    eaa1    # Full-width Characters
 eaa2    e791a4    eaa2    # Full-width Characters
 eaa3    e5879c    eaa3    # Full-width Characters
 eaa4    e78699    eaa4    # Full-width Characters
-ed40    e7ba8a    fa5c    # Full-width Characters (NEC-selected IBM extended characters)
-ed41    e8a49c    fa5d    # Full-width Characters (NEC-selected IBM extended characters)
-ed42    e98d88    fa5e    # Full-width Characters (NEC-selected IBM extended characters)
-ed43    e98a88    fa5f    # Full-width Characters (NEC-selected IBM extended characters)
-ed44    e8939c    fa60    # Full-width Characters (NEC-selected IBM extended characters)
-ed45    e4bf89    fa61    # Full-width Characters (NEC-selected IBM extended characters)
-ed46    e782bb    fa62    # Full-width Characters (NEC-selected IBM extended characters)
-ed47    e698b1    fa63    # Full-width Characters (NEC-selected IBM extended characters)
-ed48    e6a388    fa64    # Full-width Characters (NEC-selected IBM extended characters)
-ed49    e98bb9    fa65    # Full-width Characters (NEC-selected IBM extended characters)
-ed4a    e69bbb    fa66    # Full-width Characters (NEC-selected IBM extended characters)
-ed4b    e5bd85    fa67    # Full-width Characters (NEC-selected IBM extended characters)
-ed4c    e4b8a8    fa68    # Full-width Characters (NEC-selected IBM extended characters)
-ed4d    e4bba1    fa69    # Full-width Characters (NEC-selected IBM extended characters)
-ed4e    e4bbbc    fa6a    # Full-width Characters (NEC-selected IBM extended characters)
-ed4f    e4bc80    fa6b    # Full-width Characters (NEC-selected IBM extended characters)
-ed50    e4bc83    fa6c    # Full-width Characters (NEC-selected IBM extended characters)
-ed51    e4bcb9    fa6d    # Full-width Characters (NEC-selected IBM extended characters)
-ed52    e4bd96    fa6e    # Full-width Characters (NEC-selected IBM extended characters)
-ed53    e4be92    fa6f    # Full-width Characters (NEC-selected IBM extended characters)
-ed54    e4be8a    fa70    # Full-width Characters (NEC-selected IBM extended characters)
-ed55    e4be9a    fa71    # Full-width Characters (NEC-selected IBM extended characters)
-ed56    e4be94    fa72    # Full-width Characters (NEC-selected IBM extended characters)
-ed57    e4bf8d    fa73    # Full-width Characters (NEC-selected IBM extended characters)
-ed58    e58180    fa74    # Full-width Characters (NEC-selected IBM extended characters)
-ed59    e580a2    fa75    # Full-width Characters (NEC-selected IBM extended characters)
-ed5a    e4bfbf    fa76    # Full-width Characters (NEC-selected IBM extended characters)
-ed5b    e5809e    fa77    # Full-width Characters (NEC-selected IBM extended characters)
-ed5c    e58186    fa78    # Full-width Characters (NEC-selected IBM extended characters)
-ed5d    e581b0    fa79    # Full-width Characters (NEC-selected IBM extended characters)
-ed5e    e58182    fa7a    # Full-width Characters (NEC-selected IBM extended characters)
-ed5f    e58294    fa7b    # Full-width Characters (NEC-selected IBM extended characters)
-ed60    e583b4    fa7c    # Full-width Characters (NEC-selected IBM extended characters)
-ed61    e58398    fa7d    # Full-width Characters (NEC-selected IBM extended characters)
-ed62    e5858a    fa7e    # Full-width Characters (NEC-selected IBM extended characters)
-ed63    e585a4    fa80    # Full-width Characters (NEC-selected IBM extended characters)
-ed64    e5869d    fa81    # Full-width Characters (NEC-selected IBM extended characters)
-ed65    e586be    fa82    # Full-width Characters (NEC-selected IBM extended characters)
-ed66    e587ac    fa83    # Full-width Characters (NEC-selected IBM extended characters)
-ed67    e58895    fa84    # Full-width Characters (NEC-selected IBM extended characters)
-ed68    e58a9c    fa85    # Full-width Characters (NEC-selected IBM extended characters)
-ed69    e58aa6    fa86    # Full-width Characters (NEC-selected IBM extended characters)
-ed6a    e58b80    fa87    # Full-width Characters (NEC-selected IBM extended characters)
-ed6b    e58b9b    fa88    # Full-width Characters (NEC-selected IBM extended characters)
-ed6c    e58c80    fa89    # Full-width Characters (NEC-selected IBM extended characters)
-ed6d    e58c87    fa8a    # Full-width Characters (NEC-selected IBM extended characters)
-ed6e    e58ca4    fa8b    # Full-width Characters (NEC-selected IBM extended characters)
-ed6f    e58db2    fa8c    # Full-width Characters (NEC-selected IBM extended characters)
-ed70    e58e93    fa8d    # Full-width Characters (NEC-selected IBM extended characters)
-ed71    e58eb2    fa8e    # Full-width Characters (NEC-selected IBM extended characters)
-ed72    e58f9d    fa8f    # Full-width Characters (NEC-selected IBM extended characters)
-ed73    efa88e    fa90    # Full-width Characters (NEC-selected IBM extended characters)
-ed74    e5929c    fa91    # Full-width Characters (NEC-selected IBM extended characters)
-ed75    e5928a    fa92    # Full-width Characters (NEC-selected IBM extended characters)
-ed76    e592a9    fa93    # Full-width Characters (NEC-selected IBM extended characters)
-ed77    e593bf    fa94    # Full-width Characters (NEC-selected IBM extended characters)
-ed78    e59686    fa95    # Full-width Characters (NEC-selected IBM extended characters)
-ed79    e59d99    fa96    # Full-width Characters (NEC-selected IBM extended characters)
-ed7a    e59da5    fa97    # Full-width Characters (NEC-selected IBM extended characters)
-ed7b    e59eac    fa98    # Full-width Characters (NEC-selected IBM extended characters)
-ed7c    e59f88    fa99    # Full-width Characters (NEC-selected IBM extended characters)
-ed7d    e59f87    fa9a    # Full-width Characters (NEC-selected IBM extended characters)
-ed7e    efa88f    fa9b    # Full-width Characters (NEC-selected IBM extended characters)
-ed80    efa890    fa9c    # Full-width Characters (NEC-selected IBM extended characters)
-ed81    e5a29e    fa9d    # Full-width Characters (NEC-selected IBM extended characters)
-ed82    e5a2b2    fa9e    # Full-width Characters (NEC-selected IBM extended characters)
-ed83    e5a48b    fa9f    # Full-width Characters (NEC-selected IBM extended characters)
-ed84    e5a593    faa0    # Full-width Characters (NEC-selected IBM extended characters)
-ed85    e5a59b    faa1    # Full-width Characters (NEC-selected IBM extended characters)
-ed86    e5a59d    faa2    # Full-width Characters (NEC-selected IBM extended characters)
-ed87    e5a5a3    faa3    # Full-width Characters (NEC-selected IBM extended characters)
-ed88    e5a6a4    faa4    # Full-width Characters (NEC-selected IBM extended characters)
-ed89    e5a6ba    faa5    # Full-width Characters (NEC-selected IBM extended characters)
-ed8a    e5ad96    faa6    # Full-width Characters (NEC-selected IBM extended characters)
-ed8b    e5af80    faa7    # Full-width Characters (NEC-selected IBM extended characters)
-ed8c    e794af    faa8    # Full-width Characters (NEC-selected IBM extended characters)
-ed8d    e5af98    faa9    # Full-width Characters (NEC-selected IBM extended characters)
-ed8e    e5afac    faaa    # Full-width Characters (NEC-selected IBM extended characters)
-ed8f    e5b09e    faab    # Full-width Characters (NEC-selected IBM extended characters)
-ed90    e5b2a6    faac    # Full-width Characters (NEC-selected IBM extended characters)
-ed91    e5b2ba    faad    # Full-width Characters (NEC-selected IBM extended characters)
-ed92    e5b3b5    faae    # Full-width Characters (NEC-selected IBM extended characters)
-ed93    e5b4a7    faaf    # Full-width Characters (NEC-selected IBM extended characters)
-ed94    e5b593    fab0    # Full-width Characters (NEC-selected IBM extended characters)
-ed95    efa891    fab1    # Full-width Characters (NEC-selected IBM extended characters)
-ed96    e5b582    fab2    # Full-width Characters (NEC-selected IBM extended characters)
-ed97    e5b5ad    fab3    # Full-width Characters (NEC-selected IBM extended characters)
-ed98    e5b6b8    fab4    # Full-width Characters (NEC-selected IBM extended characters)
-ed99    e5b6b9    fab5    # Full-width Characters (NEC-selected IBM extended characters)
-ed9a    e5b790    fab6    # Full-width Characters (NEC-selected IBM extended characters)
-ed9b    e5bca1    fab7    # Full-width Characters (NEC-selected IBM extended characters)
-ed9c    e5bcb4    fab8    # Full-width Characters (NEC-selected IBM extended characters)
-ed9d    e5bda7    fab9    # Full-width Characters (NEC-selected IBM extended characters)
-ed9e    e5beb7    faba    # Full-width Characters (NEC-selected IBM extended characters)
-ed9f    e5bf9e    fabb    # Full-width Characters (NEC-selected IBM extended characters)
-eda0    e6819d    fabc    # Full-width Characters (NEC-selected IBM extended characters)
-eda1    e68285    fabd    # Full-width Characters (NEC-selected IBM extended characters)
-eda2    e6828a    fabe    # Full-width Characters (NEC-selected IBM extended characters)
-eda3    e6839e    fabf    # Full-width Characters (NEC-selected IBM extended characters)
-eda4    e68395    fac0    # Full-width Characters (NEC-selected IBM extended characters)
-eda5    e684a0    fac1    # Full-width Characters (NEC-selected IBM extended characters)
-eda6    e683b2    fac2    # Full-width Characters (NEC-selected IBM extended characters)
-eda7    e68491    fac3    # Full-width Characters (NEC-selected IBM extended characters)
-eda8    e684b7    fac4    # Full-width Characters (NEC-selected IBM extended characters)
-eda9    e684b0    fac5    # Full-width Characters (NEC-selected IBM extended characters)
-edaa    e68698    fac6    # Full-width Characters (NEC-selected IBM extended characters)
-edab    e68893    fac7    # Full-width Characters (NEC-selected IBM extended characters)
-edac    e68aa6    fac8    # Full-width Characters (NEC-selected IBM extended characters)
-edad    e68fb5    fac9    # Full-width Characters (NEC-selected IBM extended characters)
-edae    e691a0    faca    # Full-width Characters (NEC-selected IBM extended characters)
-edaf    e6929d    facb    # Full-width Characters (NEC-selected IBM extended characters)
-edb0    e6938e    facc    # Full-width Characters (NEC-selected IBM extended characters)
-edb1    e6958e    facd    # Full-width Characters (NEC-selected IBM extended characters)
-edb2    e69880    face    # Full-width Characters (NEC-selected IBM extended characters)
-edb3    e69895    facf    # Full-width Characters (NEC-selected IBM extended characters)
-edb4    e698bb    fad0    # Full-width Characters (NEC-selected IBM extended characters)
-edb5    e69889    fad1    # Full-width Characters (NEC-selected IBM extended characters)
-edb6    e698ae    fad2    # Full-width Characters (NEC-selected IBM extended characters)
-edb7    e6989e    fad3    # Full-width Characters (NEC-selected IBM extended characters)
-edb8    e698a4    fad4    # Full-width Characters (NEC-selected IBM extended characters)
-edb9    e699a5    fad5    # Full-width Characters (NEC-selected IBM extended characters)
-edba    e69997    fad6    # Full-width Characters (NEC-selected IBM extended characters)
-edbb    e69999    fad7    # Full-width Characters (NEC-selected IBM extended characters)
-edbc    efa892    fad8    # Full-width Characters (NEC-selected IBM extended characters)
-edbd    e699b3    fad9    # Full-width Characters (NEC-selected IBM extended characters)
-edbe    e69a99    fada    # Full-width Characters (NEC-selected IBM extended characters)
-edbf    e69aa0    fadb    # Full-width Characters (NEC-selected IBM extended characters)
-edc0    e69ab2    fadc    # Full-width Characters (NEC-selected IBM extended characters)
-edc1    e69abf    fadd    # Full-width Characters (NEC-selected IBM extended characters)
-edc2    e69bba    fade    # Full-width Characters (NEC-selected IBM extended characters)
-edc3    e69c8e    fadf    # Full-width Characters (NEC-selected IBM extended characters)
-edc4    efa4a9    fae0    # Full-width Characters (NEC-selected IBM extended characters)
-edc5    e69da6    fae1    # Full-width Characters (NEC-selected IBM extended characters)
-edc6    e69ebb    fae2    # Full-width Characters (NEC-selected IBM extended characters)
-edc7    e6a192    fae3    # Full-width Characters (NEC-selected IBM extended characters)
-edc8    e69f80    fae4    # Full-width Characters (NEC-selected IBM extended characters)
-edc9    e6a081    fae5    # Full-width Characters (NEC-selected IBM extended characters)
-edca    e6a184    fae6    # Full-width Characters (NEC-selected IBM extended characters)
-edcb    e6a38f    fae7    # Full-width Characters (NEC-selected IBM extended characters)
-edcc    efa893    fae8    # Full-width Characters (NEC-selected IBM extended characters)
-edcd    e6a5a8    fae9    # Full-width Characters (NEC-selected IBM extended characters)
-edce    efa894    faea    # Full-width Characters (NEC-selected IBM extended characters)
-edcf    e6a698    faeb    # Full-width Characters (NEC-selected IBM extended characters)
-edd0    e6a7a2    faec    # Full-width Characters (NEC-selected IBM extended characters)
-edd1    e6a8b0    faed    # Full-width Characters (NEC-selected IBM extended characters)
-edd2    e6a9ab    faee    # Full-width Characters (NEC-selected IBM extended characters)
-edd3    e6a986    faef    # Full-width Characters (NEC-selected IBM extended characters)
-edd4    e6a9b3    faf0    # Full-width Characters (NEC-selected IBM extended characters)
-edd5    e6a9be    faf1    # Full-width Characters (NEC-selected IBM extended characters)
-edd6    e6aba2    faf2    # Full-width Characters (NEC-selected IBM extended characters)
-edd7    e6aba4    faf3    # Full-width Characters (NEC-selected IBM extended characters)
-edd8    e6af96    faf4    # Full-width Characters (NEC-selected IBM extended characters)
-edd9    e6b0bf    faf5    # Full-width Characters (NEC-selected IBM extended characters)
-edda    e6b19c    faf6    # Full-width Characters (NEC-selected IBM extended characters)
-eddb    e6b286    faf7    # Full-width Characters (NEC-selected IBM extended characters)
-eddc    e6b1af    faf8    # Full-width Characters (NEC-selected IBM extended characters)
-eddd    e6b39a    faf9    # Full-width Characters (NEC-selected IBM extended characters)
-edde    e6b484    fafa    # Full-width Characters (NEC-selected IBM extended characters)
-eddf    e6b687    fafb    # Full-width Characters (NEC-selected IBM extended characters)
-ede0    e6b5af    fafc    # Full-width Characters (NEC-selected IBM extended characters)
-ede1    e6b696    fb40    # Full-width Characters (NEC-selected IBM extended characters)
-ede2    e6b6ac    fb41    # Full-width Characters (NEC-selected IBM extended characters)
-ede3    e6b78f    fb42    # Full-width Characters (NEC-selected IBM extended characters)
-ede4    e6b7b8    fb43    # Full-width Characters (NEC-selected IBM extended characters)
-ede5    e6b7b2    fb44    # Full-width Characters (NEC-selected IBM extended characters)
-ede6    e6b7bc    fb45    # Full-width Characters (NEC-selected IBM extended characters)
-ede7    e6b8b9    fb46    # Full-width Characters (NEC-selected IBM extended characters)
-ede8    e6b99c    fb47    # Full-width Characters (NEC-selected IBM extended characters)
-ede9    e6b8a7    fb48    # Full-width Characters (NEC-selected IBM extended characters)
-edea    e6b8bc    fb49    # Full-width Characters (NEC-selected IBM extended characters)
-edeb    e6babf    fb4a    # Full-width Characters (NEC-selected IBM extended characters)
-edec    e6be88    fb4b    # Full-width Characters (NEC-selected IBM extended characters)
-eded    e6beb5    fb4c    # Full-width Characters (NEC-selected IBM extended characters)
-edee    e6bfb5    fb4d    # Full-width Characters (NEC-selected IBM extended characters)
-edef    e78085    fb4e    # Full-width Characters (NEC-selected IBM extended characters)
-edf0    e78087    fb4f    # Full-width Characters (NEC-selected IBM extended characters)
-edf1    e780a8    fb50    # Full-width Characters (NEC-selected IBM extended characters)
-edf2    e78285    fb51    # Full-width Characters (NEC-selected IBM extended characters)
-edf3    e782ab    fb52    # Full-width Characters (NEC-selected IBM extended characters)
-edf4    e7848f    fb53    # Full-width Characters (NEC-selected IBM extended characters)
-edf5    e78484    fb54    # Full-width Characters (NEC-selected IBM extended characters)
-edf6    e7859c    fb55    # Full-width Characters (NEC-selected IBM extended characters)
-edf7    e78586    fb56    # Full-width Characters (NEC-selected IBM extended characters)
-edf8    e78587    fb57    # Full-width Characters (NEC-selected IBM extended characters)
-edf9    efa895    fb58    # Full-width Characters (NEC-selected IBM extended characters)
-edfa    e78781    fb59    # Full-width Characters (NEC-selected IBM extended characters)
-edfb    e787be    fb5a    # Full-width Characters (NEC-selected IBM extended characters)
-edfc    e78ab1    fb5b    # Full-width Characters (NEC-selected IBM extended characters)
-ee40    e78abe    fb5c    # Full-width Characters (NEC-selected IBM extended characters)
-ee41    e78ca4    fb5d    # Full-width Characters (NEC-selected IBM extended characters)
-ee42    efa896    fb5e    # Full-width Characters (NEC-selected IBM extended characters)
-ee43    e78db7    fb5f    # Full-width Characters (NEC-selected IBM extended characters)
-ee44    e78ebd    fb60    # Full-width Characters (NEC-selected IBM extended characters)
-ee45    e78f89    fb61    # Full-width Characters (NEC-selected IBM extended characters)
-ee46    e78f96    fb62    # Full-width Characters (NEC-selected IBM extended characters)
-ee47    e78fa3    fb63    # Full-width Characters (NEC-selected IBM extended characters)
-ee48    e78f92    fb64    # Full-width Characters (NEC-selected IBM extended characters)
-ee49    e79087    fb65    # Full-width Characters (NEC-selected IBM extended characters)
-ee4a    e78fb5    fb66    # Full-width Characters (NEC-selected IBM extended characters)
-ee4b    e790a6    fb67    # Full-width Characters (NEC-selected IBM extended characters)
-ee4c    e790aa    fb68    # Full-width Characters (NEC-selected IBM extended characters)
-ee4d    e790a9    fb69    # Full-width Characters (NEC-selected IBM extended characters)
-ee4e    e790ae    fb6a    # Full-width Characters (NEC-selected IBM extended characters)
-ee4f    e791a2    fb6b    # Full-width Characters (NEC-selected IBM extended characters)
-ee50    e79289    fb6c    # Full-width Characters (NEC-selected IBM extended characters)
-ee51    e7929f    fb6d    # Full-width Characters (NEC-selected IBM extended characters)
-ee52    e79481    fb6e    # Full-width Characters (NEC-selected IBM extended characters)
-ee53    e795af    fb6f    # Full-width Characters (NEC-selected IBM extended characters)
-ee54    e79a82    fb70    # Full-width Characters (NEC-selected IBM extended characters)
-ee55    e79a9c    fb71    # Full-width Characters (NEC-selected IBM extended characters)
-ee56    e79a9e    fb72    # Full-width Characters (NEC-selected IBM extended characters)
-ee57    e79a9b    fb73    # Full-width Characters (NEC-selected IBM extended characters)
-ee58    e79aa6    fb74    # Full-width Characters (NEC-selected IBM extended characters)
-ee59    efa897    fb75    # Full-width Characters (NEC-selected IBM extended characters)
-ee5a    e79d86    fb76    # Full-width Characters (NEC-selected IBM extended characters)
-ee5b    e58aaf    fb77    # Full-width Characters (NEC-selected IBM extended characters)
-ee5c    e7a0a1    fb78    # Full-width Characters (NEC-selected IBM extended characters)
-ee5d    e7a18e    fb79    # Full-width Characters (NEC-selected IBM extended characters)
-ee5e    e7a1a4    fb7a    # Full-width Characters (NEC-selected IBM extended characters)
-ee5f    e7a1ba    fb7b    # Full-width Characters (NEC-selected IBM extended characters)
-ee60    e7a4b0    fb7c    # Full-width Characters (NEC-selected IBM extended characters)
-ee61    efa898    fb7d    # Full-width Characters (NEC-selected IBM extended characters)
-ee62    efa899    fb7e    # Full-width Characters (NEC-selected IBM extended characters)
-ee63    efa89a    fb80    # Full-width Characters (NEC-selected IBM extended characters)
-ee64    e7a694    fb81    # Full-width Characters (NEC-selected IBM extended characters)
-ee65    efa89b    fb82    # Full-width Characters (NEC-selected IBM extended characters)
-ee66    e7a69b    fb83    # Full-width Characters (NEC-selected IBM extended characters)
-ee67    e7ab91    fb84    # Full-width Characters (NEC-selected IBM extended characters)
-ee68    e7aba7    fb85    # Full-width Characters (NEC-selected IBM extended characters)
-ee69    efa89c    fb86    # Full-width Characters (NEC-selected IBM extended characters)
-ee6a    e7abab    fb87    # Full-width Characters (NEC-selected IBM extended characters)
-ee6b    e7ae9e    fb88    # Full-width Characters (NEC-selected IBM extended characters)
-ee6c    efa89d    fb89    # Full-width Characters (NEC-selected IBM extended characters)
-ee6d    e7b588    fb8a    # Full-width Characters (NEC-selected IBM extended characters)
-ee6e    e7b59c    fb8b    # Full-width Characters (NEC-selected IBM extended characters)
-ee6f    e7b6b7    fb8c    # Full-width Characters (NEC-selected IBM extended characters)
-ee70    e7b6a0    fb8d    # Full-width Characters (NEC-selected IBM extended characters)
-ee71    e7b796    fb8e    # Full-width Characters (NEC-selected IBM extended characters)
-ee72    e7b992    fb8f    # Full-width Characters (NEC-selected IBM extended characters)
-ee73    e7bd87    fb90    # Full-width Characters (NEC-selected IBM extended characters)
-ee74    e7bea1    fb91    # Full-width Characters (NEC-selected IBM extended characters)
-ee75    efa89e    fb92    # Full-width Characters (NEC-selected IBM extended characters)
-ee76    e88c81    fb93    # Full-width Characters (NEC-selected IBM extended characters)
-ee77    e88da2    fb94    # Full-width Characters (NEC-selected IBM extended characters)
-ee78    e88dbf    fb95    # Full-width Characters (NEC-selected IBM extended characters)
-ee79    e88f87    fb96    # Full-width Characters (NEC-selected IBM extended characters)
-ee7a    e88fb6    fb97    # Full-width Characters (NEC-selected IBM extended characters)
-ee7b    e89188    fb98    # Full-width Characters (NEC-selected IBM extended characters)
-ee7c    e892b4    fb99    # Full-width Characters (NEC-selected IBM extended characters)
-ee7d    e89593    fb9a    # Full-width Characters (NEC-selected IBM extended characters)
-ee7e    e89599    fb9b    # Full-width Characters (NEC-selected IBM extended characters)
-ee80    e895ab    fb9c    # Full-width Characters (NEC-selected IBM extended characters)
-ee81    efa89f    fb9d    # Full-width Characters (NEC-selected IBM extended characters)
-ee82    e896b0    fb9e    # Full-width Characters (NEC-selected IBM extended characters)
-ee83    efa8a0    fb9f    # Full-width Characters (NEC-selected IBM extended characters)
-ee84    efa8a1    fba0    # Full-width Characters (NEC-selected IBM extended characters)
-ee85    e8a087    fba1    # Full-width Characters (NEC-selected IBM extended characters)
-ee86    e8a3b5    fba2    # Full-width Characters (NEC-selected IBM extended characters)
-ee87    e8a892    fba3    # Full-width Characters (NEC-selected IBM extended characters)
-ee88    e8a8b7    fba4    # Full-width Characters (NEC-selected IBM extended characters)
-ee89    e8a9b9    fba5    # Full-width Characters (NEC-selected IBM extended characters)
-ee8a    e8aaa7    fba6    # Full-width Characters (NEC-selected IBM extended characters)
-ee8b    e8aabe    fba7    # Full-width Characters (NEC-selected IBM extended characters)
-ee8c    e8ab9f    fba8    # Full-width Characters (NEC-selected IBM extended characters)
-ee8d    efa8a2    fba9    # Full-width Characters (NEC-selected IBM extended characters)
-ee8e    e8abb6    fbaa    # Full-width Characters (NEC-selected IBM extended characters)
-ee8f    e8ad93    fbab    # Full-width Characters (NEC-selected IBM extended characters)
-ee90    e8adbf    fbac    # Full-width Characters (NEC-selected IBM extended characters)
-ee91    e8b3b0    fbad    # Full-width Characters (NEC-selected IBM extended characters)
-ee92    e8b3b4    fbae    # Full-width Characters (NEC-selected IBM extended characters)
-ee93    e8b492    fbaf    # Full-width Characters (NEC-selected IBM extended characters)
-ee94    e8b5b6    fbb0    # Full-width Characters (NEC-selected IBM extended characters)
-ee95    efa8a3    fbb1    # Full-width Characters (NEC-selected IBM extended characters)
-ee96    e8bb8f    fbb2    # Full-width Characters (NEC-selected IBM extended characters)
-ee97    efa8a4    fbb3    # Full-width Characters (NEC-selected IBM extended characters)
-ee98    efa8a5    fbb4    # Full-width Characters (NEC-selected IBM extended characters)
-ee99    e981a7    fbb5    # Full-width Characters (NEC-selected IBM extended characters)
-ee9a    e9839e    fbb6    # Full-width Characters (NEC-selected IBM extended characters)
-ee9b    efa8a6    fbb7    # Full-width Characters (NEC-selected IBM extended characters)
-ee9c    e98495    fbb8    # Full-width Characters (NEC-selected IBM extended characters)
-ee9d    e984a7    fbb9    # Full-width Characters (NEC-selected IBM extended characters)
-ee9e    e9879a    fbba    # Full-width Characters (NEC-selected IBM extended characters)
-ee9f    e98797    fbbb    # Full-width Characters (NEC-selected IBM extended characters)
-eea0    e9879e    fbbc    # Full-width Characters (NEC-selected IBM extended characters)
-eea1    e987ad    fbbd    # Full-width Characters (NEC-selected IBM extended characters)
-eea2    e987ae    fbbe    # Full-width Characters (NEC-selected IBM extended characters)
-eea3    e987a4    fbbf    # Full-width Characters (NEC-selected IBM extended characters)
-eea4    e987a5    fbc0    # Full-width Characters (NEC-selected IBM extended characters)
-eea5    e98886    fbc1    # Full-width Characters (NEC-selected IBM extended characters)
-eea6    e98890    fbc2    # Full-width Characters (NEC-selected IBM extended characters)
-eea7    e9888a    fbc3    # Full-width Characters (NEC-selected IBM extended characters)
-eea8    e988ba    fbc4    # Full-width Characters (NEC-selected IBM extended characters)
-eea9    e98980    fbc5    # Full-width Characters (NEC-selected IBM extended characters)
-eeaa    e988bc    fbc6    # Full-width Characters (NEC-selected IBM extended characters)
-eeab    e9898e    fbc7    # Full-width Characters (NEC-selected IBM extended characters)
-eeac    e98999    fbc8    # Full-width Characters (NEC-selected IBM extended characters)
-eead    e98991    fbc9    # Full-width Characters (NEC-selected IBM extended characters)
-eeae    e988b9    fbca    # Full-width Characters (NEC-selected IBM extended characters)
-eeaf    e989a7    fbcb    # Full-width Characters (NEC-selected IBM extended characters)
-eeb0    e98aa7    fbcc    # Full-width Characters (NEC-selected IBM extended characters)
-eeb1    e989b7    fbcd    # Full-width Characters (NEC-selected IBM extended characters)
-eeb2    e989b8    fbce    # Full-width Characters (NEC-selected IBM extended characters)
-eeb3    e98ba7    fbcf    # Full-width Characters (NEC-selected IBM extended characters)
-eeb4    e98b97    fbd0    # Full-width Characters (NEC-selected IBM extended characters)
-eeb5    e98b99    fbd1    # Full-width Characters (NEC-selected IBM extended characters)
-eeb6    e98b90    fbd2    # Full-width Characters (NEC-selected IBM extended characters)
-eeb7    efa8a7    fbd3    # Full-width Characters (NEC-selected IBM extended characters)
-eeb8    e98b95    fbd4    # Full-width Characters (NEC-selected IBM extended characters)
-eeb9    e98ba0    fbd5    # Full-width Characters (NEC-selected IBM extended characters)
-eeba    e98b93    fbd6    # Full-width Characters (NEC-selected IBM extended characters)
-eebb    e98ca5    fbd7    # Full-width Characters (NEC-selected IBM extended characters)
-eebc    e98ca1    fbd8    # Full-width Characters (NEC-selected IBM extended characters)
-eebd    e98bbb    fbd9    # Full-width Characters (NEC-selected IBM extended characters)
-eebe    efa8a8    fbda    # Full-width Characters (NEC-selected IBM extended characters)
-eebf    e98c9e    fbdb    # Full-width Characters (NEC-selected IBM extended characters)
-eec0    e98bbf    fbdc    # Full-width Characters (NEC-selected IBM extended characters)
-eec1    e98c9d    fbdd    # Full-width Characters (NEC-selected IBM extended characters)
-eec2    e98c82    fbde    # Full-width Characters (NEC-selected IBM extended characters)
-eec3    e98db0    fbdf    # Full-width Characters (NEC-selected IBM extended characters)
-eec4    e98d97    fbe0    # Full-width Characters (NEC-selected IBM extended characters)
-eec5    e98ea4    fbe1    # Full-width Characters (NEC-selected IBM extended characters)
-eec6    e98f86    fbe2    # Full-width Characters (NEC-selected IBM extended characters)
-eec7    e98f9e    fbe3    # Full-width Characters (NEC-selected IBM extended characters)
-eec8    e98fb8    fbe4    # Full-width Characters (NEC-selected IBM extended characters)
-eec9    e990b1    fbe5    # Full-width Characters (NEC-selected IBM extended characters)
-eeca    e99185    fbe6    # Full-width Characters (NEC-selected IBM extended characters)
-eecb    e99188    fbe7    # Full-width Characters (NEC-selected IBM extended characters)
-eecc    e99692    fbe8    # Full-width Characters (NEC-selected IBM extended characters)
-eecd    efa79c    fbe9    # Full-width Characters (NEC-selected IBM extended characters)
-eece    efa8a9    fbea    # Full-width Characters (NEC-selected IBM extended characters)
-eecf    e99a9d    fbeb    # Full-width Characters (NEC-selected IBM extended characters)
-eed0    e99aaf    fbec    # Full-width Characters (NEC-selected IBM extended characters)
-eed1    e99cb3    fbed    # Full-width Characters (NEC-selected IBM extended characters)
-eed2    e99cbb    fbee    # Full-width Characters (NEC-selected IBM extended characters)
-eed3    e99d83    fbef    # Full-width Characters (NEC-selected IBM extended characters)
-eed4    e99d8d    fbf0    # Full-width Characters (NEC-selected IBM extended characters)
-eed5    e99d8f    fbf1    # Full-width Characters (NEC-selected IBM extended characters)
-eed6    e99d91    fbf2    # Full-width Characters (NEC-selected IBM extended characters)
-eed7    e99d95    fbf3    # Full-width Characters (NEC-selected IBM extended characters)
-eed8    e9a197    fbf4    # Full-width Characters (NEC-selected IBM extended characters)
-eed9    e9a1a5    fbf5    # Full-width Characters (NEC-selected IBM extended characters)
-eeda    efa8aa    fbf6    # Full-width Characters (NEC-selected IBM extended characters)
-eedb    efa8ab    fbf7    # Full-width Characters (NEC-selected IBM extended characters)
-eedc    e9a4a7    fbf8    # Full-width Characters (NEC-selected IBM extended characters)
-eedd    efa8ac    fbf9    # Full-width Characters (NEC-selected IBM extended characters)
-eede    e9a69e    fbfa    # Full-width Characters (NEC-selected IBM extended characters)
-eedf    e9a98e    fbfb    # Full-width Characters (NEC-selected IBM extended characters)
-eee0    e9ab99    fbfc    # Full-width Characters (NEC-selected IBM extended characters)
-eee1    e9ab9c    fc40    # Full-width Characters (NEC-selected IBM extended characters)
-eee2    e9adb5    fc41    # Full-width Characters (NEC-selected IBM extended characters)
-eee3    e9adb2    fc42    # Full-width Characters (NEC-selected IBM extended characters)
-eee4    e9ae8f    fc43    # Full-width Characters (NEC-selected IBM extended characters)
-eee5    e9aeb1    fc44    # Full-width Characters (NEC-selected IBM extended characters)
-eee6    e9aebb    fc45    # Full-width Characters (NEC-selected IBM extended characters)
-eee7    e9b080    fc46    # Full-width Characters (NEC-selected IBM extended characters)
-eee8    e9b5b0    fc47    # Full-width Characters (NEC-selected IBM extended characters)
-eee9    e9b5ab    fc48    # Full-width Characters (NEC-selected IBM extended characters)
-eeea    efa8ad    fc49    # Full-width Characters (NEC-selected IBM extended characters)
-eeeb    e9b899    fc4a    # Full-width Characters (NEC-selected IBM extended characters)
-eeec    e9bb91    fc4b    # Full-width Characters (NEC-selected IBM extended characters)
-eeef    e285b0    fa40    # Full-width Characters (NEC-selected IBM extended characters)
-eef0    e285b1    fa41    # Full-width Characters (NEC-selected IBM extended characters)
-eef1    e285b2    fa42    # Full-width Characters (NEC-selected IBM extended characters)
-eef2    e285b3    fa43    # Full-width Characters (NEC-selected IBM extended characters)
-eef3    e285b4    fa44    # Full-width Characters (NEC-selected IBM extended characters)
-eef4    e285b5    fa45    # Full-width Characters (NEC-selected IBM extended characters)
-eef5    e285b6    fa46    # Full-width Characters (NEC-selected IBM extended characters)
-eef6    e285b7    fa47    # Full-width Characters (NEC-selected IBM extended characters)
-eef7    e285b8    fa48    # Full-width Characters (NEC-selected IBM extended characters)
-eef8    e285b9    fa49    # Full-width Characters (NEC-selected IBM extended characters)
-eef9    efbfa2    81ca    # Full-width Characters (NEC-selected IBM extended characters)
-eefa    efbfa4    fa55    # Full-width Characters (NEC-selected IBM extended characters)
-eefb    efbc87    fa56    # Full-width Characters (NEC-selected IBM extended characters)
-eefc    efbc82    fa57    # Full-width Characters (NEC-selected IBM extended characters)
+ed40    e7ba8a    fa5c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed41    e8a49c    fa5d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed42    e98d88    fa5e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed43    e98a88    fa5f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed44    e8939c    fa60    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed45    e4bf89    fa61    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed46    e782bb    fa62    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed47    e698b1    fa63    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed48    e6a388    fa64    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed49    e98bb9    fa65    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4a    e69bbb    fa66    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4b    e5bd85    fa67    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4c    e4b8a8    fa68    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4d    e4bba1    fa69    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4e    e4bbbc    fa6a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed4f    e4bc80    fa6b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed50    e4bc83    fa6c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed51    e4bcb9    fa6d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed52    e4bd96    fa6e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed53    e4be92    fa6f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed54    e4be8a    fa70    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed55    e4be9a    fa71    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed56    e4be94    fa72    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed57    e4bf8d    fa73    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed58    e58180    fa74    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed59    e580a2    fa75    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5a    e4bfbf    fa76    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5b    e5809e    fa77    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5c    e58186    fa78    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5d    e581b0    fa79    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5e    e58182    fa7a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed5f    e58294    fa7b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed60    e583b4    fa7c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed61    e58398    fa7d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed62    e5858a    fa7e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed63    e585a4    fa80    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed64    e5869d    fa81    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed65    e586be    fa82    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed66    e587ac    fa83    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed67    e58895    fa84    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed68    e58a9c    fa85    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed69    e58aa6    fa86    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6a    e58b80    fa87    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6b    e58b9b    fa88    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6c    e58c80    fa89    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6d    e58c87    fa8a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6e    e58ca4    fa8b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed6f    e58db2    fa8c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed70    e58e93    fa8d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed71    e58eb2    fa8e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed72    e58f9d    fa8f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed73    efa88e    fa90    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed74    e5929c    fa91    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed75    e5928a    fa92    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed76    e592a9    fa93    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed77    e593bf    fa94    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed78    e59686    fa95    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed79    e59d99    fa96    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed7a    e59da5    fa97    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed7b    e59eac    fa98    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed7c    e59f88    fa99    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed7d    e59f87    fa9a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed7e    efa88f    fa9b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed80    efa890    fa9c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed81    e5a29e    fa9d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed82    e5a2b2    fa9e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed83    e5a48b    fa9f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed84    e5a593    faa0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed85    e5a59b    faa1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed86    e5a59d    faa2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed87    e5a5a3    faa3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed88    e5a6a4    faa4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed89    e5a6ba    faa5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8a    e5ad96    faa6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8b    e5af80    faa7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8c    e794af    faa8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8d    e5af98    faa9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8e    e5afac    faaa    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed8f    e5b09e    faab    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed90    e5b2a6    faac    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed91    e5b2ba    faad    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed92    e5b3b5    faae    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed93    e5b4a7    faaf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed94    e5b593    fab0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed95    efa891    fab1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed96    e5b582    fab2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed97    e5b5ad    fab3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed98    e5b6b8    fab4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed99    e5b6b9    fab5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9a    e5b790    fab6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9b    e5bca1    fab7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9c    e5bcb4    fab8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9d    e5bda7    fab9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9e    e5beb7    faba    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ed9f    e5bf9e    fabb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda0    e6819d    fabc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda1    e68285    fabd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda2    e6828a    fabe    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda3    e6839e    fabf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda4    e68395    fac0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda5    e684a0    fac1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda6    e683b2    fac2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda7    e68491    fac3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda8    e684b7    fac4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eda9    e684b0    fac5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edaa    e68698    fac6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edab    e68893    fac7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edac    e68aa6    fac8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edad    e68fb5    fac9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edae    e691a0    faca    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edaf    e6929d    facb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb0    e6938e    facc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb1    e6958e    facd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb2    e69880    face    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb3    e69895    facf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb4    e698bb    fad0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb5    e69889    fad1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb6    e698ae    fad2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb7    e6989e    fad3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb8    e698a4    fad4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edb9    e699a5    fad5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edba    e69997    fad6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edbb    e69999    fad7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edbc    efa892    fad8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edbd    e699b3    fad9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edbe    e69a99    fada    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edbf    e69aa0    fadb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc0    e69ab2    fadc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc1    e69abf    fadd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc2    e69bba    fade    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc3    e69c8e    fadf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc4    efa4a9    fae0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc5    e69da6    fae1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc6    e69ebb    fae2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc7    e6a192    fae3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc8    e69f80    fae4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edc9    e6a081    fae5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edca    e6a184    fae6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edcb    e6a38f    fae7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edcc    efa893    fae8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edcd    e6a5a8    fae9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edce    efa894    faea    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edcf    e6a698    faeb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd0    e6a7a2    faec    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd1    e6a8b0    faed    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd2    e6a9ab    faee    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd3    e6a986    faef    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd4    e6a9b3    faf0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd5    e6a9be    faf1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd6    e6aba2    faf2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd7    e6aba4    faf3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd8    e6af96    faf4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edd9    e6b0bf    faf5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edda    e6b19c    faf6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eddb    e6b286    faf7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eddc    e6b1af    faf8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eddd    e6b39a    faf9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edde    e6b484    fafa    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eddf    e6b687    fafb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede0    e6b5af    fafc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede1    e6b696    fb40    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede2    e6b6ac    fb41    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede3    e6b78f    fb42    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede4    e6b7b8    fb43    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede5    e6b7b2    fb44    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede6    e6b7bc    fb45    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede7    e6b8b9    fb46    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede8    e6b99c    fb47    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ede9    e6b8a7    fb48    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edea    e6b8bc    fb49    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edeb    e6babf    fb4a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edec    e6be88    fb4b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eded    e6beb5    fb4c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edee    e6bfb5    fb4d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edef    e78085    fb4e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf0    e78087    fb4f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf1    e780a8    fb50    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf2    e78285    fb51    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf3    e782ab    fb52    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf4    e7848f    fb53    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf5    e78484    fb54    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf6    e7859c    fb55    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf7    e78586    fb56    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf8    e78587    fb57    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edf9    efa895    fb58    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edfa    e78781    fb59    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edfb    e787be    fb5a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+edfc    e78ab1    fb5b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee40    e78abe    fb5c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee41    e78ca4    fb5d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee42    efa896    fb5e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee43    e78db7    fb5f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee44    e78ebd    fb60    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee45    e78f89    fb61    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee46    e78f96    fb62    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee47    e78fa3    fb63    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee48    e78f92    fb64    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee49    e79087    fb65    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4a    e78fb5    fb66    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4b    e790a6    fb67    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4c    e790aa    fb68    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4d    e790a9    fb69    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4e    e790ae    fb6a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee4f    e791a2    fb6b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee50    e79289    fb6c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee51    e7929f    fb6d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee52    e79481    fb6e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee53    e795af    fb6f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee54    e79a82    fb70    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee55    e79a9c    fb71    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee56    e79a9e    fb72    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee57    e79a9b    fb73    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee58    e79aa6    fb74    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee59    efa897    fb75    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5a    e79d86    fb76    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5b    e58aaf    fb77    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5c    e7a0a1    fb78    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5d    e7a18e    fb79    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5e    e7a1a4    fb7a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee5f    e7a1ba    fb7b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee60    e7a4b0    fb7c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee61    efa898    fb7d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee62    efa899    fb7e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee63    efa89a    fb80    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee64    e7a694    fb81    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee65    efa89b    fb82    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee66    e7a69b    fb83    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee67    e7ab91    fb84    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee68    e7aba7    fb85    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee69    efa89c    fb86    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6a    e7abab    fb87    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6b    e7ae9e    fb88    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6c    efa89d    fb89    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6d    e7b588    fb8a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6e    e7b59c    fb8b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee6f    e7b6b7    fb8c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee70    e7b6a0    fb8d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee71    e7b796    fb8e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee72    e7b992    fb8f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee73    e7bd87    fb90    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee74    e7bea1    fb91    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee75    efa89e    fb92    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee76    e88c81    fb93    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee77    e88da2    fb94    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee78    e88dbf    fb95    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee79    e88f87    fb96    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee7a    e88fb6    fb97    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee7b    e89188    fb98    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee7c    e892b4    fb99    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee7d    e89593    fb9a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee7e    e89599    fb9b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee80    e895ab    fb9c    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee81    efa89f    fb9d    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee82    e896b0    fb9e    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee83    efa8a0    fb9f    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee84    efa8a1    fba0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee85    e8a087    fba1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee86    e8a3b5    fba2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee87    e8a892    fba3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee88    e8a8b7    fba4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee89    e8a9b9    fba5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8a    e8aaa7    fba6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8b    e8aabe    fba7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8c    e8ab9f    fba8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8d    efa8a2    fba9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8e    e8abb6    fbaa    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee8f    e8ad93    fbab    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee90    e8adbf    fbac    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee91    e8b3b0    fbad    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee92    e8b3b4    fbae    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee93    e8b492    fbaf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee94    e8b5b6    fbb0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee95    efa8a3    fbb1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee96    e8bb8f    fbb2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee97    efa8a4    fbb3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee98    efa8a5    fbb4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee99    e981a7    fbb5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9a    e9839e    fbb6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9b    efa8a6    fbb7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9c    e98495    fbb8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9d    e984a7    fbb9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9e    e9879a    fbba    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+ee9f    e98797    fbbb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea0    e9879e    fbbc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea1    e987ad    fbbd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea2    e987ae    fbbe    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea3    e987a4    fbbf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea4    e987a5    fbc0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea5    e98886    fbc1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea6    e98890    fbc2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea7    e9888a    fbc3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea8    e988ba    fbc4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eea9    e98980    fbc5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeaa    e988bc    fbc6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeab    e9898e    fbc7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeac    e98999    fbc8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eead    e98991    fbc9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeae    e988b9    fbca    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeaf    e989a7    fbcb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb0    e98aa7    fbcc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb1    e989b7    fbcd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb2    e989b8    fbce    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb3    e98ba7    fbcf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb4    e98b97    fbd0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb5    e98b99    fbd1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb6    e98b90    fbd2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb7    efa8a7    fbd3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb8    e98b95    fbd4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeb9    e98ba0    fbd5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeba    e98b93    fbd6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eebb    e98ca5    fbd7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eebc    e98ca1    fbd8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eebd    e98bbb    fbd9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eebe    efa8a8    fbda    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eebf    e98c9e    fbdb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec0    e98bbf    fbdc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec1    e98c9d    fbdd    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec2    e98c82    fbde    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec3    e98db0    fbdf    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec4    e98d97    fbe0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec5    e98ea4    fbe1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec6    e98f86    fbe2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec7    e98f9e    fbe3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec8    e98fb8    fbe4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eec9    e990b1    fbe5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeca    e99185    fbe6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eecb    e99188    fbe7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eecc    e99692    fbe8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eecd    efa79c    fbe9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eece    efa8a9    fbea    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eecf    e99a9d    fbeb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed0    e99aaf    fbec    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed1    e99cb3    fbed    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed2    e99cbb    fbee    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed3    e99d83    fbef    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed4    e99d8d    fbf0    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed5    e99d8f    fbf1    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed6    e99d91    fbf2    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed7    e99d95    fbf3    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed8    e9a197    fbf4    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eed9    e9a1a5    fbf5    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeda    efa8aa    fbf6    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eedb    efa8ab    fbf7    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eedc    e9a4a7    fbf8    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eedd    efa8ac    fbf9    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eede    e9a69e    fbfa    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eedf    e9a98e    fbfb    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee0    e9ab99    fbfc    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee1    e9ab9c    fc40    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee2    e9adb5    fc41    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee3    e9adb2    fc42    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee4    e9ae8f    fc43    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee5    e9aeb1    fc44    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee6    e9aebb    fc45    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee7    e9b080    fc46    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee8    e9b5b0    fc47    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eee9    e9b5ab    fc48    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeea    efa8ad    fc49    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeeb    e9b899    fc4a    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeec    e9bb91    fc4b    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eeef    e285b0    fa40    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef0    e285b1    fa41    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef1    e285b2    fa42    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef2    e285b3    fa43    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef3    e285b4    fa44    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef4    e285b5    fa45    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef5    e285b6    fa46    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef6    e285b7    fa47    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef7    e285b8    fa48    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef8    e285b9    fa49    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eef9    efbfa2    81ca    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eefa    efbfa4    fa55    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eefb    efbc87    fa56    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
+eefc    efbc82    fa57    # Full-width Characters (NEC-selected IBM extended characters) / round-trip mismatch
 fa40    e285b0    fa40    # Full-width Characters (IBM extended characters)
 fa41    e285b1    fa41    # Full-width Characters (IBM extended characters)
 fa42    e285b2    fa42    # Full-width Characters (IBM extended characters)
@@ -7562,24 +7562,24 @@ fa46    e285b6    fa46    # Full-width Characters (IBM extended characters)
 fa47    e285b7    fa47    # Full-width Characters (IBM extended characters)
 fa48    e285b8    fa48    # Full-width Characters (IBM extended characters)
 fa49    e285b9    fa49    # Full-width Characters (IBM extended characters)
-fa4a    e285a0    8754    # Full-width Characters (IBM extended characters)
-fa4b    e285a1    8755    # Full-width Characters (IBM extended characters)
-fa4c    e285a2    8756    # Full-width Characters (IBM extended characters)
-fa4d    e285a3    8757    # Full-width Characters (IBM extended characters)
-fa4e    e285a4    8758    # Full-width Characters (IBM extended characters)
-fa4f    e285a5    8759    # Full-width Characters (IBM extended characters)
-fa50    e285a6    875a    # Full-width Characters (IBM extended characters)
-fa51    e285a7    875b    # Full-width Characters (IBM extended characters)
-fa52    e285a8    875c    # Full-width Characters (IBM extended characters)
-fa53    e285a9    875d    # Full-width Characters (IBM extended characters)
-fa54    efbfa2    81ca    # Full-width Characters (IBM extended characters)
+fa4a    e285a0    8754    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa4b    e285a1    8755    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa4c    e285a2    8756    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa4d    e285a3    8757    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa4e    e285a4    8758    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa4f    e285a5    8759    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa50    e285a6    875a    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa51    e285a7    875b    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa52    e285a8    875c    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa53    e285a9    875d    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa54    efbfa2    81ca    # Full-width Characters (IBM extended characters) / round-trip mismatch
 fa55    efbfa4    fa55    # Full-width Characters (IBM extended characters)
 fa56    efbc87    fa56    # Full-width Characters (IBM extended characters)
 fa57    efbc82    fa57    # Full-width Characters (IBM extended characters)
-fa58    e388b1    878a    # Full-width Characters (IBM extended characters)
-fa59    e28496    8782    # Full-width Characters (IBM extended characters)
-fa5a    e284a1    8784    # Full-width Characters (IBM extended characters)
-fa5b    e288b5    81e6    # Full-width Characters (IBM extended characters)
+fa58    e388b1    878a    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa59    e28496    8782    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa5a    e284a1    8784    # Full-width Characters (IBM extended characters) / round-trip mismatch
+fa5b    e288b5    81e6    # Full-width Characters (IBM extended characters) / round-trip mismatch
 fa5c    e7ba8a    fa5c    # Full-width Characters (IBM extended characters)
 fa5d    e8a49c    fa5d    # Full-width Characters (IBM extended characters)
 fa5e    e98d88    fa5e    # Full-width Characters (IBM extended characters)
