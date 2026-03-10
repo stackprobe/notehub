@@ -55,6 +55,10 @@
 # MS932 is a superset of Shift_JIS used on Microsoft Windows and includes
 # several vendor-specific extensions.
 #
+# Note on user-defined characters (EUDC):
+# Some MS932 text may contain user-defined characters in the range F040-F9FC.
+# These are environment-dependent and are not included in this table.
+#
 # UTF-8 BOM note:
 # Some UTF-8 text files may start with a Byte Order Mark (BOM):
 #
