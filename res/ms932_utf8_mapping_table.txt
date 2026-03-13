@@ -38,6 +38,17 @@
 # preserve their original byte sequence after a
 # MS932 -> UTF-8 -> MS932 round-trip conversion.
 #
+# Note on where round-trip mismatches occur:
+# These mismatches do not occur within the standard Shift_JIS character
+# set derived from JIS X 0208. Characters in that range have a stable
+# one-to-one mapping with Unicode in Windows conversions.
+#
+# Round-trip mismatches appear only in vendor extension areas of MS932,
+# such as NEC special characters, NEC selected IBM extensions,
+# and IBM extensions. In those areas, multiple MS932 code points may
+# correspond to the same Unicode character, which causes the canonical
+# mapping behavior described above.
+#
 # This table is intended for:
 #   - testing MS932 <-> UTF-8 conversions
 #   - validating encoding implementations
