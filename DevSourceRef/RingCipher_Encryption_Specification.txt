@@ -1,0 +1,72 @@
+=====================
+RingCipher 暗号化方式
+=====================
+
+
+rCBCLoop ( PLAIN + padding + padding_N + randPart + hash + iv , keyDiv ( key ) ) -> CIPHER
+
+	PLAIN  ... 平文のバイト列
+	CIPHER ... 暗号化されたバイト列
+
+	padding       ... ランダムなバイト列 (padding_N-Low バイト) ※1
+	padding_N     ... 以下参照 (1バイト)
+	padding_N-Hi  ... ランダムなビット列 (上位4ビット) ※1
+	padding_N-Low ... PLAIN + padding + padding_N のバイト数が16の倍数となるような 0〜15 の値 (下位4ビット)
+	randPart      ... ランダムなバイト列 (64バイト) ※1
+	hash          ... PLAIN + padding + padding_N + randPart の SHA-512 (64バイト) ※2
+	iv            ... ランダムなバイト列 (16バイト) ※1
+	key           ... 鍵 (16バイト以上＆8の倍数バイト)
+
+
+keyDiv ( inputKey ) -> outputKeys
+
+	入力された鍵を以下のとおり鍵リストに分割する。
+	・入力鍵サイズ --> 出力鍵サイズリスト
+	・単位はバイト
+
+	 16  -->  16
+	 24  -->  24
+	 32  -->  32
+	 40  -->  24 , 16
+	 48  -->  32 , 16
+	 56  -->  32 , 24
+	 64  -->  32 , 32
+	 72  -->  32 , 24 , 16
+	 80  -->  32 , 32 , 16
+	 88  -->  32 , 32 , 24
+	 96  -->  32 , 32 , 32
+	104  -->  32 , 32 , 24 , 16
+	112  -->  32 , 32 , 32 , 16
+	120  -->  32 , 32 , 32 , 24
+	128  -->  32 , 32 , 32 , 32
+	...
+
+
+rCBCLoop ( inputData , keys ) -> outputData
+
+	inputData -> d
+
+	foreach ( key in keys )
+	{
+		rCBC ( d , key ) -> d
+	}
+
+	d -> outputData
+
+
+rCBC ( inputData , key ) -> outputData
+
+	AESによる暗号化
+	・最後のブロックをIVとするCBCモード ※3
+	・鍵長は key に従う。
+
+
+注釈
+
+	※1 乱数は CSPRNG (CSPRNGRandomizer) から取得します。
+	※2 復号時 hash が一致しなければ、鍵の不一致かファイルの破損(改ざん)と見なし、復号は失敗します。
+	※3 例えば P1 + P2 + P3 を暗号化した C1 + C2 + C3 は以下のとおりになります。(Px, Cx はそれぞれ1ブロック)
+		C1 = encrypt ( xor ( P1 , P3 ) )
+		C2 = encrypt ( xor ( P2 , C1 ) )
+		C3 = encrypt ( xor ( P3 , C2 ) )
+

@@ -1,0 +1,61 @@
+=============================================
+DirToCluster クラスタ・ファイル・フォーマット
+=============================================
+
+
+CLUSTER-FILE-BYTES :
+	GZip ( CLUSTER )
+
+CLUSTER :
+	DIRECTORY-OR-FILE-ENTRY ... (0個以上)
+	, s ( E-SIG )
+
+DIRECTORY-OR-FILE-ENTRY :
+	DIRECTORY-ENTRY | FILE-ENTRY
+
+DIRECTORY-ENTRY :
+	s ( D-SIG )
+	, s ( REL-DIRECTORY-PATH )
+
+FILE-ENTRY :
+	s ( F-SIG )
+	, s ( REL-FILE-PATH )
+	, s ( ts ( CREATE-TIME-STAMP ) )
+	, s ( ts ( UPDATE-TIME-STAMP ) )
+	, s ( ts ( ACCESS-TIME-STAMP ) )
+	, s ( FILE-SIZE )
+	, FILE-DATA
+
+
+GZip ( データ ) : GZipによる圧縮
+
+ts ( 日時 ) : 日時を YYYYMMDDHHIISS 形式で表現した文字列、例：2026年01月31日09時30分05秒 ⇒ "20260131093005"
+
+s ( 文字列 ) : sz ( UTF-8-BYTES ( 文字列 ) ) , UTF-8-BYTES ( 文字列 )
+
+sz ( データ ) : データサイズ(バイト数)の32ビット(4バイト)表現・リトルエンディアン
+
+UTF-8-BYTES ( 文字列 ) : 文字列を UTF-8_NoBOM で表現したバイト列
+
+
+D-SIG : "D"
+F-SIG : "F"
+E-SIG : "E"
+
+REL-DIRECTORY-PATH : ディレクトリへの(クラスタのルートからの)相対パス   ※1
+REL-FILE-PATH :      ファイルへの(クラスタのルートからの)相対パス       ※1
+
+CREATE-TIME-STAMP : ファイルの作成日時
+UPDATE-TIME-STAMP : ファイルの更新日時
+ACCESS-TIME-STAMP : ファイルのアクセス日時
+
+FILE-SIZE : ファイルサイズ(バイト数)を 10進・整数 で表現した文字列、例：1234000バイト ⇒ "1234000"
+FILE-DATA : ファイルのバイト列
+
+
+----
+注釈
+
+	※1 ... パスデリミタは半角円記号(\)とし、パスの前後にパスデリミタを置いてはならない。
+	        また、絶対パス , ".." , "." も禁止である。
+
