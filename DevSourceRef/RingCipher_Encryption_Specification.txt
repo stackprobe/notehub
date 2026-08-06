@@ -3,10 +3,11 @@ RingCipher 暗号化方式
 =====================
 
 
-rCBCLoop ( PLAIN + padding + padding_N + randPart + hash + iv , keyDiv ( key ) ) -> CIPHER
+rCBCLoop ( PLAIN + padding + padding_N + randPart + hash + iv , keyDiv ( KEY ) ) -> CIPHER
 
 	PLAIN  ... 平文のバイト列
 	CIPHER ... 暗号化されたバイト列
+	KEY    ... 鍵バイト列 (16バイト以上＆8の倍数バイト)
 
 	padding       ... ランダムなバイト列 (padding_N-Low バイト) ※1
 	padding_N     ... 以下参照 (1バイト)
@@ -15,7 +16,6 @@ rCBCLoop ( PLAIN + padding + padding_N + randPart + hash + iv , keyDiv ( key ) )
 	randPart      ... ランダムなバイト列 (64バイト) ※1
 	hash          ... PLAIN + padding + padding_N + randPart の SHA-512 (64バイト) ※2
 	iv            ... ランダムなバイト列 (16バイト) ※1
-	key           ... 鍵 (16バイト以上＆8の倍数バイト)
 
 
 keyDiv ( inputKey ) -> outputKeys
