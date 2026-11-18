@@ -6,12 +6,12 @@ using HLTStudio.Commons;
 
 namespace HLTStudio.Tests
 {
-	public class UsageExample_SCommon_FirstIslandEnclosed
-	{
-		public static void Test01()
-		{
-			{
-				string RES = @"
+    public class UsageExample_SCommon_FirstIslandEnclosed
+    {
+        public static void Test01()
+        {
+            {
+                string RES = @"
 
 <root>
 <AAA/>
@@ -21,27 +21,27 @@ namespace HLTStudio.Tests
 
 ";
 
-				string text = RES;
+                string text = RES;
 
-				for (; ; )
-				{
-					int tagIndex;
-					string[] slnd = SCommon.ParseFirstIsland(text, out tagIndex
-						, "<AAA/>", false
-						, "<bbb/>", true
-						, "<ccc/>", true
-						);
+                for (; ; )
+                {
+                    int tagIndex;
+                    string[] slnd = SCommon.ParseFirstIsland(text, out tagIndex
+                        , "<AAA/>", false
+                        , "<bbb/>", true
+                        , "<ccc/>", true
+                        );
 
-					if (slnd == null)
-						break;
+                    if (slnd == null)
+                        break;
 
-					Console.WriteLine(tagIndex + "\t" + slnd[1]);
-					text = slnd[2];
-				}
-			}
+                    Console.WriteLine(tagIndex + "\t" + slnd[1]);
+                    text = slnd[2];
+                }
+            }
 
-			{
-				string RES = @"
+            {
+                string RES = @"
 
 <root>
 <a>AAA</a>
@@ -51,27 +51,27 @@ namespace HLTStudio.Tests
 
 ";
 
-				string text = RES;
+                string text = RES;
 
-				for (; ; )
-				{
-					int tagIndex;
-					string[] encl = SCommon.ParseFirstEnclosed(text, out tagIndex
-						, "<a>", "</a>", false
-						, "<B>", "</B>", true
-						, "<C>", "</c>", true
-						);
+                for (; ; )
+                {
+                    int tagIndex;
+                    string[] encl = SCommon.ParseFirstEnclosed(text, out tagIndex
+                        , "<a>", "</a>", false
+                        , "<B>", "</B>", true
+                        , "<C>", "</c>", true
+                        );
 
-					if (encl == null)
-						break;
+                    if (encl == null)
+                        break;
 
-					Console.WriteLine(tagIndex + "\t" + encl[2]);
-					text = encl[4];
-				}
-			}
+                    Console.WriteLine(tagIndex + "\t" + encl[2]);
+                    text = encl[4];
+                }
+            }
 
-			{
-				string RES = @"
+            {
+                string RES = @"
 
 <root>
 <XXX/>
@@ -81,28 +81,28 @@ namespace HLTStudio.Tests
 
 ";
 
-				string text = RES;
-				int index = 0;
+                string text = RES;
+                int index = 0;
 
-				for (; ; )
-				{
-					int tagIndex;
-					int[] slnd = SCommon.GetFirstIsland(text, index, out tagIndex
-						, "<XXX/>", false
-						, "<yyy/>", true
-						, "<zzz/>", true
-						);
+                for (; ; )
+                {
+                    int tagIndex;
+                    int[] slnd = SCommon.GetFirstIsland(text, index, out tagIndex
+                        , "<XXX/>", false
+                        , "<yyy/>", true
+                        , "<zzz/>", true
+                        );
 
-					if (slnd == null)
-						break;
+                    if (slnd == null)
+                        break;
 
-					Console.WriteLine(tagIndex + "\t" + text.Substring(slnd[0], slnd[1] - slnd[0]));
-					index = slnd[1];
-				}
-			}
+                    Console.WriteLine(tagIndex + "\t" + text.Substring(slnd[0], slnd[1] - slnd[0]));
+                    index = slnd[1];
+                }
+            }
 
-			{
-				string RES = @"
+            {
+                string RES = @"
 
 <root>
 <x>XXX</x>
@@ -112,26 +112,26 @@ namespace HLTStudio.Tests
 
 ";
 
-				string text = RES;
-				int index = 0;
+                string text = RES;
+                int index = 0;
 
-				for (; ; )
-				{
-					int tagIndex;
-					int[] encl = SCommon.GetFirstEnclosed(text, index, out tagIndex
-						, "<x>", "</x>", false
-						, "<Y>", "</Y>", true
-						, "<z>", "</Z>", true
-						);
+                for (; ; )
+                {
+                    int tagIndex;
+                    int[] encl = SCommon.GetFirstEnclosed(text, index, out tagIndex
+                        , "<x>", "</x>", false
+                        , "<Y>", "</Y>", true
+                        , "<z>", "</Z>", true
+                        );
 
-					if (encl == null)
-						break;
+                    if (encl == null)
+                        break;
 
-					Console.WriteLine(tagIndex + "\t" + text.Substring(encl[1], encl[2] - encl[1]));
-					index = encl[3];
-				}
-			}
-		}
+                    Console.WriteLine(tagIndex + "\t" + text.Substring(encl[1], encl[2] - encl[1]));
+                    index = encl[3];
+                }
+            }
+        }
 
 #if false // 出力
 
@@ -150,6 +150,6 @@ namespace HLTStudio.Tests
 Press ENTER key.
 
 #endif
-	}
+    }
 }
 ```
